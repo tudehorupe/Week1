@@ -4,150 +4,151 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Your Website</title>
+	<title>SmallMoments</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<p>Notice how this content isn't centered. To center it we need to wrap it</p>
-
-	<section>
-		<h1>Here is some centered content, by wrapping it with a section tag</h1>
-		<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci. </em></p>
-
-		<p>Notice how if you change the width of your browser it stays in the center</p>
+	<section id="zero">
 	</section>
 
-	<section>
-		<p>This is a simple nav bar, which is full width of the page</p>
-	</section>
-	<nav>
-		<h3>A nice navigation bar</h3>
-		<a href="#one">Link 1</a>
-		<a href="#two">Link 2</a>
-		<a href="#three">Link 3</a>
-	</nav>
+	<header class="header">
 
-	<section id="one">
-		<p><strong>Content number one</strong></p>
-		<p>By setting an a tag's href to "#one", it will link to a html element with the id of "one". <a href="https://css-tricks.com/hash-tag-links-padding/">More info about that here</a></p>
-	</section>
-
-	<section id="two">
-		<p><strong>Content number 2</strong></p>
-	</section>
-
-	<section id="three">
-		<p><strong>Content number 3</strong></p>
-	</section>
-
-	<header>
-		<section>
-			<h1>This header has a solid background and some padding</h1>
-			<p>There is also a section tag inside it to center this content</p>
+		<section class= "title">
+			<h1>SMALL MOMENTS</h1>
 		</section>
+
+		<nav id="all-links">
+			<a class="link" href="#zero">HOME</a>
+			<a id="link2" href="#one">HANDLES</a>
+			<a href="#two">LOCKS</a>
+			<a href="#three">KEYS</a>
+		</nav>
+
 	</header>
 
-	
 
-	<section>
-		<h3>Grids</h3>
+	<div class="block1">
 
-		<p>Use grids to divide up or layout content. For example, putting an image on the left, and lots to text on the right</p>
+<br></br>
 
-		<p>I've added a 'show' class so you can see where the grids are. Use chrome's web inspector tools to take a closer look</p>
+<div id="all-intro">
+	<section id="intro">
+		<h1>Small Moments</h1>
+		<p>With a focus on dissecting minor interactions of everyday life, Small Moments seeks to expose these occasions. Experiences such as using door handles, locks, or keys, many individuals do not fully recognise these interactions despite their importance and frequent usage. Displayed below are a range of examples from each of these areas.</p>
 
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-			<div class="g-50 show">
-				50% width .g-50
-			</div>
-
-			<div class="g-30 show">
-				30% width .g-30
-			</div>
-
-			<div class="g-70 show">
-				70% width .g-70
-			</div>
-		</div>
-
-		<p>The other cool things about grids, is that 50% width means 50% of the div's <em>parent</em>. This means you can put cells in cells to get infinitly smaller sizes. The possiblities are endless!</p>
-
-		<div class="g-row show"> <!--first wrap all grid cells in a g-row-->
-			<div class="g-50 show">
-				<div class="g-50 show">
-					<div class="g-50 show">
-						50%
-					</div>
-					<div class="g-50 show">
-						50%
-					</div>
-				</div>
-				<div class="g-50 show">
-					50%
-				</div>
-			</div>
-			<div class="g-50 show">
-				50%
-			</div>
-		</div>
-
-		<p>Here's a simple page using all of these elements</p>
 	</section>
+</div>
 
-	<header>
-		<section>
-			<h1>Infrastructure of Wellington</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<p id="one">one link</p>
+
+<div>
+<div id="all1">
+		<section id="text-sections">
+			<h2>HANDLES</h2>
+			<p>Handles provide a means of opening doors, draws, cupboards, or holding various items. Intended to assist users lives with offering and directing a way of using a particular item.</p>
 		</section>
-	</header>
+</div>
+		<section id="images"> <!--first wrap all grid cells in a g-row-->
 
-	<section>
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+			<img src="img/handle11.jpg">
+			<img src="img/handle2.jpg">
+			<img src="img/handle3.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+		</section>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
+	</div>
 
-		<div class="g-row">
-			<div class="g-30">
-				<img src="img/cover.jpg">
-			</div>
-			<div class="g-70 padded">
-				<h3>Example</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque est, egestas tristique quam nec, efficitur efficitur massa. Aenean in faucibus felis. Mauris ut ligula vestibulum, varius metus vitae, maximus orci.</p>
-			</div>
-		</div>
-	</section>
+
+	<p id="two">two link</p>
+
+<div>
+<div id="all2">
+		<section id="text-sections">
+			<h2>LOCKS</h2>
+			<p>From handles, locks present a way of keeping a passageway closed, allowing individuals to securely protect possessions from unintended users. Similar to handles, locks come in a range of shapes and forms to perform their intended task of providing confidence in storing content.</p>
+		</section>
+	</div>
+
+		<section id="images"> <!--first wrap all grid cells in a g-row-->
+
+			<img src="img/lock1.jpg">
+			<img src="img/lock2.jpg">
+			<img src="img/lock3.jpg">
+			<img src="img/lock4.jpg">
+			<img src="img/lock5.jpg">
+			<img src="img/lock6.jpg">
+
+		</section>
+
+	</div>
+
+<div>
+
+	<p id="three">three link</p>
+
+
+<div id="all3">
+		<section id="text-sections">
+			<h2>KEYS</h2>
+			<p>Where there are locks there are keys. In order for owners to pass through areas keys offer a means of unlocking these doors via specific keys to specific locks allowing this access. Keys are commonly used for external doors of architectural forms, as well as the likes of cars and gates.</p>
+		</section>
+	</div>
+
+
+		<section id="images"> <!--first wrap all grid cells in a g-row-->
+
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+			<img src="img/cover.jpg">
+
+		</section>
+
+
+	</div>
+
+
+
+
+	<div class="rect1">
+</div>
+
+<div class="rect2">
+</div>
+
+<div class="rect3">
+</div>
+
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
 
 </body>
 
